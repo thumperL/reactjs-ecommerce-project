@@ -4,15 +4,13 @@ import './menu-item.styles.scss';
 
 const MenuItem = ({ title, imageUrl, size, linkUrl }) => {
   return (
-    <div 
-      className={`MenuItem ${size}`}
-      style={{
+    <div className={`MenuItem ${size}`}>
+      <div className='background-image' style={{
         backgroundImage: `url(${imageUrl})`,
-      }}
-    >
+      }} />
       <div className='content'>
-        <h1>{ title }</h1>
-        <span>SHOP NOW</span>
+        <h1 className='title'>{ title.toUpperCase() }</h1>
+        <span className='subtitle'>SHOP NOW</span>
       </div>
     </div>
   );

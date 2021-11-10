@@ -6,9 +6,7 @@ import './homepage.styles.scss';
 
 const HomePage = () => (
   <div className='HomePage'>
-    <div className='directory-menu'>
-      <Directory />
-    </div>
+    <Directory />
   </div>
 );
 
