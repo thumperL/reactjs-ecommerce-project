@@ -1,5 +1,5 @@
 import React from 'react';
-import SingIn from '../../components/signin/singin.component';
+import SingIn from '../../components/signin/signin.component';
 
 const AuthPage = (props) => {
   return (
